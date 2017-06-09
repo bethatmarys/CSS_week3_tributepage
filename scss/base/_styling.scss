@@ -1,3 +1,6 @@
+
+// -----------whole page---------
+
 .main {
   height: 100%;
   width: 98%;
@@ -13,6 +16,17 @@
   margin-top: 0px;
   text-align: center;
 }
+.sub-title {
+  background-color: #f2f2f2;
+  margin-top: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+
+  margin-top: 0px;
+  text-align: center;
+
+}
 #dean  {
   width: 100%;
   position: relative;
@@ -22,16 +36,53 @@
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-.photo {
- margin: 0 auto;
- height: 125px;
- width: 125px;
- border-radius: 5px;
+.main-article {
+  position: relative;
+}
+.bigText {
+  position: relative;
+  z-index: 1;
+  left: 30px;
+  bottom: 400px;
+  font-size: 76px;
+  // margin-bottom: 3%;
+  // padding-top: 5%;
+  font-family: 'Cormorant SC', serif;
+  color: #f2f2f2;
+}
+h2 {
+  display: block;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
+// -----------section 2---------
+.section2 {
+  margin-top: -00px;
+}
+.neat-row2 {
+  width: 800px;
+  height: 200px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #f2f2f2;
+  margin-right: 20px;
+  margin: left;
+  margin-top: 20px;
+  position: relative;
+}
+.photo {
+  margin: 0 auto;
+  height: 200px;
+ width: 200px;
+ border-radius: 5px;
+ float: left;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  text-align: right;
+  font-size: 17px;
+}
 .photo:after {
-
 }
 .photo img  {
   position: static;
@@ -41,29 +92,25 @@
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-.main-article {
-  position: relative;
+h3 {
+  text-align: justify;
+  font-family: 'Cormorant SC', serif;
 }
-
 a {
   color: white;
   font-size: 1.45rem;
 
   text-decoration: none;
 }
-
 ul {
   color: white;
   text-align: left;
 }
-
 li {
   display: inline;
   color: white;
   text-align: left;
 }
-
 .clearfix:after {
   content: "";
   display: table;
