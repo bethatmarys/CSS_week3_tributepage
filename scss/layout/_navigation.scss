@@ -1,19 +1,25 @@
 * {
 
 }
-
-
-// ----------------- section 1 ------------------
-.circle {
-  border-radius: 50%;
-  background-color: #4bc6df;
-  width: 50px;
-  height: 50px;
+.bigText {
   position: absolute;
   z-index: 1;
-  right: 70px;
-  top: 140px;
+  right: 420px;
+  top: 305px;
+  font-size: 76px;
+  margin-bottom: 3%;
+  padding-top: 5%;
+  font-family: 'Cormorant SC', serif;
+  color: #f2f2f2;
 }
+/*-----------------GALLERY DIV--------------------*/
+h2 {
+  display: block;
+  text-align: center;
+}
+
+
+
 
 .sub-navbar {
   height: 40px;

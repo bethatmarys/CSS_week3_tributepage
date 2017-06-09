@@ -1,6 +1,6 @@
 .paragraph-styles, h2 {
   font-size: 30px;
-  color: red; }
+  font-family: 'Nothing You Could Do', cursive; }
 
 .neat-row2 {
   width: calc(100% - 40px);
@@ -17,15 +17,21 @@
       float: left;
       margin-left: 40px; } }
 
-.circle {
-  border-radius: 50%;
-  background-color: #4bc6df;
-  width: 50px;
-  height: 50px;
+.bigText {
   position: absolute;
   z-index: 1;
-  right: 70px;
-  top: 140px; }
+  right: 420px;
+  top: 305px;
+  font-size: 76px;
+  margin-bottom: 3%;
+  padding-top: 5%;
+  font-family: 'Cormorant SC', serif;
+  color: #f2f2f2; }
+
+/*-----------------GALLERY DIV--------------------*/
+h2 {
+  display: block;
+  text-align: center; }
 
 .sub-navbar {
   height: 40px;
@@ -83,42 +89,6 @@
   position: relative;
   margin: auto; }
 
-#wheelchair {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#luke {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#water {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#segway {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
 .main {
   height: 100%;
   width: 98%;
@@ -129,10 +99,25 @@
   background-color: #f2f2f2;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 0px; }
+  margin-top: 0px;
+  text-align: center; }
 
 #dean {
   width: 100%;
+  position: relative;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+.photo {
+  margin: 0 auto;
+  height: 125px;
+  width: 125px;
+  border-radius: 5px; }
+
+.photo img {
   position: static;
   z-index: 0;
   visibility: visible;
@@ -140,41 +125,8 @@
   padding-bottom: 0px;
   margin-bottom: 0px; }
 
-#wheelchair {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#luke {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#water {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#segway {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
+.main-article {
+  position: relative; }
 
 a {
   color: white;
