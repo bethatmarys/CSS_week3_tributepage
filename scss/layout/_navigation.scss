@@ -17,15 +17,17 @@ $my-custom-grid: (
   margin: auto;
 }
 
-.nav-container {
-  height: 185px;
-  background-color: #005689;
+// ----------------- section 1 ------------------
+#dude  {
   width: 100%;
-  position: relative;
-  background-image: url('../img/logo.png');
-  background-repeat: no-repeat;
-  background-position: right;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 
 .circle {
   border-radius: 50%;
