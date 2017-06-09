@@ -1,0 +1,160 @@
+* {
+
+}
+
+$my-custom-grid: (
+  columns: 12,
+  gutter: 20px,
+  media: 1200px,
+  color: rgba(#00d4ff, 0.25),
+  direction: ltr,
+);
+
+.main {
+  height: 100%;
+  width: 98%;
+  position: relative;
+  margin: auto;
+}
+
+.nav-container {
+  height: 185px;
+  background-color: #005689;
+  width: 100%;
+  position: relative;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #4bc6df;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  right: 70px;
+  top: 140px;
+}
+
+.sub-navbar {
+  height: 40px;
+  width: 100%;
+  background-color: #5c6268;
+  position: absolute;
+  padding-bottom: 1%;
+
+}
+
+.sub {
+  border-top: 1px solid blue;
+  background-color: #f2f2f2;
+  color: gray;
+  height: 194px;
+  position: relative;
+}
+
+.pic {
+  // height: 125px;
+  // width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.first-sub {
+  display: block;
+  float: right;
+
+}
+
+
+.second-sub {
+  display: block;
+  float: right;
+
+}
+
+
+.third-sub {
+  display: block;
+  float: right;
+
+}
+
+.main-article {
+  color: gray;
+}
+
+#main-title {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+#dude  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.second-nav {
+  float: left;
+}
+
+.blue-links {
+  font-size: 1.45rem;
+  padding-top: 150px;
+
+}
+
+a {
+  color: white;
+  font-size: 1.45rem;
+
+  text-decoration: none;
+}
+
+ul {
+  color: white;
+  text-align: left;
+}
+li {
+  display: inline;
+  color: white;
+  text-align: left;
+}
+
+.headlinestext  {
+
+  width: auto;
+  height: 55px;
+  padding-top: 60px;
+  font-family: "Guardian Text Egyptian Web",Georgia,serif;
+}
+
+.headlines {
+  height: 287px;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

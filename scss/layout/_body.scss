@@ -1,0 +1,36 @@
+.paragraph-styles {
+  font-size: 30px;
+  color: red;
+}
+
+h2  {
+  @extend .paragraph-styles;
+}
+
+$md-grid: (
+columns: 12,
+gutter: 40px,
+media: 800px,
+);
+
+$lg-grid: (
+columns: 12,
+gutter: 40px,
+media: 1000px,
+);
+
+
+.neat-row2 {
+  @include grid-column(12);
+
+  @include grid-media($md-grid) {
+    @include grid-column(6);
+
+    &.neat-row2 {
+      @include grid-media ($lg-grid) {
+        @include grid-column(4);
+
+    }
+  }
+}
+}
