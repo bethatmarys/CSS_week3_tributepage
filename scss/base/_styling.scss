@@ -1,0 +1,84 @@
+.main {
+  height: 100%;
+  width: 98%;
+  position: relative;
+  margin: auto;
+}
+
+// -----------section 1---------
+#main-title {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+#dean  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#wheelchair  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#luke  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#water  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#segway  {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+a {
+  color: white;
+  font-size: 1.45rem;
+
+  text-decoration: none;
+}
+
+ul {
+  color: white;
+  text-align: left;
+}
+
+li {
+  display: inline;
+  color: white;
+  text-align: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

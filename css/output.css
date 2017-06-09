@@ -17,58 +17,6 @@
       float: left;
       margin-left: 40px; } }
 
-.main {
-  height: 100%;
-  width: 98%;
-  position: relative;
-  margin: auto; }
-
-#dean {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#wheelchair {
-  height: 20%;
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#luke {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#water {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-#segway {
-  width: 100%;
-  position: static;
-  z-index: 0;
-  visibility: visible;
-  display: block;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
 .circle {
   border-radius: 50%;
   background-color: #4bc6df;
@@ -116,18 +64,117 @@
 .top-section {
   color: gray; }
 
-#main-title {
-  background-color: #f2f2f2;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 0px; }
-
 .second-nav {
   float: left; }
 
 .blue-links {
   font-size: 1.45rem;
   padding-top: 150px; }
+
+.headlinestext {
+  width: auto;
+  height: 55px;
+  padding-top: 60px;
+  font-family: "Guardian Text Egyptian Web",Georgia,serif; }
+
+.headlines {
+  height: 287px;
+  max-width: 100%;
+  position: relative;
+  margin: auto; }
+
+#wheelchair {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#luke {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#water {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#segway {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+.main {
+  height: 100%;
+  width: 98%;
+  position: relative;
+  margin: auto; }
+
+#main-title {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px; }
+
+#dean {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#wheelchair {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#luke {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#water {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+#segway {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
 
 a {
   color: white;
@@ -143,21 +190,16 @@ li {
   color: white;
   text-align: left; }
 
-.headlinestext {
-  width: auto;
-  height: 55px;
-  padding-top: 60px;
-  font-family: "Guardian Text Egyptian Web",Georgia,serif; }
-
-.headlines {
-  height: 287px;
-  max-width: 100%;
-  position: relative;
-  margin: auto; }
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=output.css.map */
